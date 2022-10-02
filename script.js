@@ -7,11 +7,3 @@ function rNavBar() {
 }
 
 
-// var w = window.innerWidth;
-
-// if (w < 480){
-//   document.getElementById('rnavbtn').style.display = 'block';
-// } else {
-//   document.getElementById('rnavbtn').style.display = 'none'
-// }
-
