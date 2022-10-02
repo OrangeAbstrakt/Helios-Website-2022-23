@@ -1002,7 +1002,6 @@ hr{
         right: 30%;
     
         display: flex;
-        border: 2px solid red;
         flex-direction: row;
         align-items: flex-start;
         justify-content: flex-start;
@@ -1165,6 +1164,7 @@ hr{
         grid-row: 1.2;
         width: 100%;
         height: 100%;
+        margin-top: 20px;
     
         display: flex;
         align-items: center;
