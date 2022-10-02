@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+
+        <style>
+
+            body {
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    font-family: 'Poppins',sans-serif;
+    font-size: 20px;
+}
+main {
+  position: relative;
+}
+
+.triangle {
+  position: absolute;
+  width: 0;
+    height: 0;
+    border-top: 28vh solid #ff5f5f;
+    border-right: 40vw solid transparent;
+  opacity: 0.90;
+  z-index: -1;
+  transition: all 0.3s cubic-bezier(.17,.67,.83,.67);
+}
+.triangle-2 {
+  position: absolute;
+  width: 0;
+    height: 0;
+    border-top: 25vh solid #ffb21c;
+    border-right: 75vw solid transparent;
+  opacity: 0.90;
+  z-index: -2;
+  transition: all 0.3s cubic-bezier(.17,.67,.83,.67);
+}
+
+.triangle-3 {
+  position: absolute;
+  display: block;
+  right: 0;
+  width: 0;
+    height: 0;
+    border-top: 25vh solid #ff5f5f;
+    border-left: 75vw solid transparent;
+  opacity: 0.90;
+  z-index: -3;
+  transition: all 0.3s cubic-bezier(.17,.67,.83,.67);
+}
+
+.container {
+  position: relative;
+  top: 20vh;
+  padding: 50px 1em;
+  max-width: 1000px;
+  margin: 0 auto;
+  z-index: 100;
+}
+  
+
+@media only screen and (min-width: 768px) {
+  
+  .triangle {
+    border-top: 120vh solid #ff5f5f ; 
+    border-right: 35vw solid transparent;
+  }
+  .triangle-2 {
+    border-top: 120vh solid #ffb21c ;
+    border-right: 40vw solid transparent;
+  }
+  .triangle-3 {
+    display: none;
+  }
+  .container {
+    top: 10vh;
+  }
+}
+
+
+article {
+  max-width: 700px;
+  margin: 0 auto;
+  z-index: 100;
+}
+article h1 {
+  font-family: 'Merriweather';
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: #202020;
+  margin-bottom: 0.25em;
+  text-align: center;
+}
+article .metadata {
+  margin-bottom: 1em;
+}
+article span {
+  font-family: Merriweather;
+  font-size: 1em;
+  font-weight: 400;
+  display: block;
+  color: #828385;
+  text-align: center;
+  margin-bottom: 0.250em
+}
+article p {
+  font-family: 'PT Sans';
+  font-weight: 400;
+  font-size: 1.150em;
+  line-height: 1.4;
+  color: #363636;
+  margin-bottom: 1.1635em;
+  letter-spacing: -0.0040em;
+  padding: 0.50em;
+}
+
+@media only screen and (min-width: 768px) {
+  article p {
+    font-size: 1.30em;
+  }
+}
+
+.img{
+  width: 90%;
+  height: 45%;
+  margin-left: 10%;
+  justify-content: center;
+}
+        </style>
+    </head>
+
+    <body>
+        <main>
+            <div class="triangle"></div>
+            <div class="triangle-2"></div>
+            <div class="triangle-3"></div>
+            <div class="container">
+             
+              <article>
+              <h1>About Helios</h1>
+              <div class="metadata">
+                <span class="author"></span>
+                <span class="date">Core Team 2022-23</span>
+              </div>
+
+              <div class="image">
+                <img src="core team.png" class="img">
+              </div>
+
+              <br><br>
+              Helios is Step By Step's first student-led technology club open to all 6th to 12th graders. The club, under the leadership of Adit Sinha, Shauryaveer Chaudhry, Samya Singh, Dhruv Rawal and Arhaan Garg aims to generate interest in technology among students and develop the vast talent in our school. Helios seeks to increase the participation of Step by Step students in competitions (both inter-school and intra-school) through its various activities ranging from workshops to events to guest speakers. We are currently an 85-strong community.
+              <br><br>
+              Given that technology is a diverse field, Helios has split its activities into five departments. Each department is managed by its respective Head of Departments (HODs). The first is Programming, headed by Arjun Suri and Ducksh Leakha. Have you ever wondered how a computer does its work? Have you accidentally pressed ctl+shift+C and gotten bombarded by lines of words and numbers? That is a code. Programming is done via coding. Programming is the process of creating a program that follows standards and performs a task. There are various languages within Programming as well. For all those who already have some experience, our focus shall remain on competitive programming.
+              <br><br>
+              In this automated world, the ability to harness the power of a machine is becoming more and more necessary. The next is Computer-aided design or CAD for short, led by Paramvir Seth and Madhav Agarwal. CAD is the use of computers to aid in the design processes. CAD is used to design, develop and optimise products. CAD enables design engineers to layout and improve their work on a computer screen, print and save it for future editing. It is the very core of modern architecture.
+               <br><br>
+              Next is Web Development, overseen by Anhad Singh and Neil Chaudhry. Web Development is, as can be inferred from the name, the process of building, creating, and maintaining a website. A web developer is at heart an interactive artist whose canvas is a user's web browser. Websites are the services provided by the internet. They are the building blocks for the digital platform as a whole.
+              <br>
+              <br>
+              Another one of our departments is Digital Art, whose Head of Department is Navya Dewan. Digital Art means artistic work that utilises technology as part of the creative or exhibition process. Digital art is the result of continually evolving technology. Through the years, digital art has emerged as a recurring topic in discussions about the modern art world. Digital art represents advanced creations ranging from 3D model animation to even paintings. The digital platform is the future of artistic expression.
+               <br><br>
+              Robotics is yet another department of ours, headed by Jai Gupta.
+               <br><br>
+              Last but not least is AudioVisual, managed by Rehan Tyagi.. AudioVisual or A/V for short is any electronic media possessing things that can be both heard and seen, such as slide-tape presentations, films, television programs. A/V technology has immense importance in entertainment, documentation processes etc. It has become an integral part of our lives today via youtube, television, movies, documentaries, live events, concerts etc.
+               <br><br>
+              Of course, our club would not be complete without people to put everything together. This role is carried out by the  Secretary, Vikramaditya Ghose and the Organizing Committee consisting of Abhiraj Chaudhary, Taania Rishi and Twisha Agrawal.
+               <br><br>
+              Tanmay Garg and Sammarth Kumar, whom we are eternally indebted to, founded Helios on the principle of "for students by students". Our primary medium of activity will be student-led workshops conducted by our HOD's. These will consist of hour-long sessions, the frequency of which will vary amongst the departments. They will be scheduled in the best manner possible to avoid clashes with academics. We shall also remain cognizant of the various skill levels of members and make these workshops accessible to all. However, we at Helios believe that learning never stops. Our student-teachers will be available to guide members throughout the year and provide resources to students to continue their quest towards mastery. 
+               <br><br>
+              Another of our big plans for this academic session is the Binary Fest, SBSs own technology fest, where students will gain new experiences and compete for their house in a variety of technology-based events such as web development, competitive programming and digital art. This fest will bring out the best in our students and prepare them to represent our school in upcoming inter-school competitions. The response we have gotten is overwhelming yet; as they say, the sky is the limit. We hope that future editions of the club see even more entries and that technology captivates even more students. Earlier there had to be a desperate scramble to find people to participate in inter-school technology competitions. We hope to have the opposite problem in the future, having so many candidates we have to bring the numbers down. Let's turn those 85 members to 850!
+
+
+            </article>
+            </div>
+            </main>
+    </body>
+</html>
